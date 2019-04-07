@@ -1,0 +1,6 @@
+<div class="wrapper">
+  <app-chart-container [chartData]="chartData"></app-chart-container>
+  <app-input-container (toggleLoader)="toggleLoader()" (setChartData)="setChartData($event)"></app-input-container>
+  <app-loader *ngIf="showLoader"></app-loader>
+</div>
+

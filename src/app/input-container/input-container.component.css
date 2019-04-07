@@ -1,0 +1,25 @@
+:host{
+	flex-grow: 5;
+	border-left: 2px solid black;
+}
+#input-container{
+	padding:10px;
+}
+
+#plot-btn{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #00adff;
+    border: none !important;
+    cursor: pointer;
+}
+
+#plot-btn:hover{
+	background-color: #0089ff;
+}
+
+#input-box{
+	width: 100%;
+	height: 400px;
+}

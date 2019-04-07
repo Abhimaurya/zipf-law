@@ -1,0 +1,6 @@
+<div id="input-container">
+	<button id="plot-btn" (click)="processData()">Draw Graph</button>
+	<p>
+		<textarea id="input-box" #textEl (blur)="onBlur(textEl.value)" placeholder="Paste large text here" value={{textData}}></textarea>
+	</p>
+</div>

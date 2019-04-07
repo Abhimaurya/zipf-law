@@ -1,0 +1,7 @@
+:host{
+	flex-grow: 7;
+};
+
+#chart-container{
+	width: 200px;
+}
